@@ -209,22 +209,9 @@ footer{
 
 @media screen and (max-width: 768px){
     main{
-        display:block ;
-        background-image: none;
-    }
-    divimg{
-        width: 98%;
-    }
-    footer{
-        display: block;
+        width: ;
     }
 }
 @media(max-width:576px){
-    main {
-        display: block;
-        background-image: none;
-    }
-    div img{
-        width: 95%;
-    }
+    
 }
