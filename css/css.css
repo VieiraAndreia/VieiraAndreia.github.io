@@ -6,6 +6,7 @@
 }
 body{
     margin:0;
+    width: auto;
     height: 140vh;
 }
 
@@ -26,12 +27,7 @@ div img{
     width: 600px;
     height: 100px;
 }
-nav{
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    color: #fff;
-}
+
 
 main{
     margin: auto;
@@ -109,47 +105,38 @@ div a{
 
 .corpo2{
     width: auto;
-    margin: 40px ;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    margin: 40px;
 }
-.img2{
-    width: 420px;
+.foto, .foto2{
+    width: 540px;
     height: 300px;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    margin-left: 40px;
-    margin-right: 10px;
-    margin-top: 25px;
     border: 3px solid #FFD53D;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px ;
 }
 
 .sinopse2{
+    font-size: medium;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     text-align: justify;
     font-size: 20px;
-    margin-right: 10px;
+    margin-top: 10px;
 }
 .elenco1{
     margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .elenco1 h2{
-    font-family: 'Open Sans', sans-serif;
-    color: #FFD53D;
     font-size:30px ;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    margin-left: 150px;
+    margin-top: 38px;
 }
 .elenco{
     width: 800px;
     height: 600px;
-    margin-left: 150px;
 }
 
 .corpo3{
@@ -218,4 +205,26 @@ footer{
 }
 .links{
     color: black;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        display:block ;
+        background-image: none;
+    }
+    divimg{
+        width: 98%;
+    }
+    footer{
+        display: block;
+    }
+}
+@media(max-width:576px){
+    main {
+        display: block;
+        background-image: none;
+    }
+    div img{
+        width: 95%;
+    }
 }
