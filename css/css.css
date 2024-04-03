@@ -171,27 +171,25 @@ div a{
 }
 
 .img4{
-    align-items: center;
     width: 350px;
     height:500px ;
     margin-left:50px;
     margin-right: 20px;
-    
 }
 .img5{
-    align-items: center;
     width: 400px;
     height: 400px;
     margin-left: 10px;
-    margin-right: 20px;
 }
 .img6{
-    align-items: center;
-    width: 800px;
+    width: 780px;
     height: auto;
-    margin-left: 35px;
-    margin-right: 20px;
+    margin-left: 50px;
     margin-top: 20px;
+}
+.img4, .img5, .img6{
+    border: 2px solid #FFD53D;
+    border-radius: 10px;
 }
 
 /** Design Responsivo**/
@@ -253,9 +251,9 @@ footer{
     height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;      
-    gap: 1rem;                    
-    align-items: center;                        
+    justify-content: center;  
+    align-items: center;      
+    gap: 1rem;                                          
 }
 footer p, a{
     font-family: 'Open Sans', sans-serif;
