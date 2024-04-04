@@ -214,7 +214,7 @@ div a{
     }
     .corpo3{
         display: flex;
-        max-width: 768px;
+        max-width: 100%;
         flex-direction: column;
     }
 }
